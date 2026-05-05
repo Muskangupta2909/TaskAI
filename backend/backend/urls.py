@@ -4,6 +4,6 @@ from api.views import upload_doc, ask
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('upload-doc', upload_doc),
-    path('ask', ask),
+    path('upload-doc/', upload_doc),
+    path('ask/', ask),
 ]
